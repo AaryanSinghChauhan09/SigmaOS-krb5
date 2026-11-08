@@ -1,0 +1,12 @@
+[package]
+name = "sigmaos_krb5"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "SigmaOS krb5 component inspired by Linux Mint / Omarchy / Arch Linux."
+
+[dependencies]
+
+[lib]
+name = "sigmaos_krb5"
+path = "src/lib.rs"
